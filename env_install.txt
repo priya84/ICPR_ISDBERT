@@ -1,0 +1,6 @@
+conda create --name nlp_env python=3.6
+conda activate nlp_env
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+conda install tensorflow-gpu
+conda install -c huggingface transformers
+
